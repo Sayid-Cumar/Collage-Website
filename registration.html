@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Registration Form</title>
 <link rel="stylesheet" href="Style.css">
+
 </head>
 <body>
   <header>
@@ -25,16 +26,17 @@
   <div class="form-container">
     
     <form>
-    <fieldset>
+   
+      
       <div class="form-group">
         <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname" required />
-      </div>
+        <input type="text" id="fname" name="fname" required placeholder="enter you are first name"/>
+      </div> <br>
 
       <div class="form-group">
         <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname" required />
-      </div>
+        <input type="text" id="lname" name="lname" required placeholder="enter you are last name"/>
+      </div> <br>
 
       <div class="form-group">
         <label>Gender:</label>
@@ -42,7 +44,7 @@
           <label><input type="radio" name="gender" value="male" required /> Male</label>
           <label><input type="radio" name="gender" value="female" /> Female</label>
         </div>
-      </div>
+      </div> <br>
 
       <div class="form-group">
         <label>Hobbies:</label>
@@ -51,7 +53,7 @@
           <label><input type="checkbox" name="hobbies" value="traveling" /> Traveling</label>
           <label><input type="checkbox" name="hobbies" value="sports" /> Sports</label>
         </div>
-      </div>
+      </div><br>
 
       <div class="form-group">
         <label for="course">Course:</label>
@@ -67,7 +69,7 @@
         <input type="submit" value="Submit" />
         <input type="reset" value="Reset" />
       </div>
-      </fieldset>
+    
     </form>
   </div>
   <footer>
